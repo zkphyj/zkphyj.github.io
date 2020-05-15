@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zkphyj.github.io</id>
     <title>雪泥鸿爪</title>
-    <updated>2020-05-15T19:52:36.642Z</updated>
+    <updated>2020-05-15T21:41:30.184Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zkphyj.github.io"/>
     <link rel="self" href="https://zkphyj.github.io/atom.xml"/>
@@ -10,6 +10,52 @@
     <logo>https://zkphyj.github.io/images/avatar.png</logo>
     <icon>https://zkphyj.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 雪泥鸿爪</rights>
+    <entry>
+        <title type="html"><![CDATA[Kroger购物优惠攻略]]></title>
+        <id>https://zkphyj.github.io/post/kroger/</id>
+        <link href="https://zkphyj.github.io/post/kroger/">
+        </link>
+        <updated>2020-05-15T08:41:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>Kroger（克罗格）是美国大型连锁超市，本文将介绍Kroger购物<br>
+优惠攻略：<a href="#%E4%BC%9A%E5%91%98">会员</a>，<a href="#%E6%AF%8F%E5%91%A8%E4%BF%83%E9%94%80">每周促销</a>，<a href="#%E4%BC%98%E6%83%A0%E5%88%B8">优惠券</a>，<a href="#%E6%B7%BB%E5%8A%A0%E7%94%B5%E5%AD%90%E4%BC%98%E6%83%A0%E5%88%B8%E8%84%9A%E6%9C%AC">添加优惠券脚本</a>。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Kroger（克罗格）是美国大型连锁超市，本文将介绍Kroger购物<br>
+优惠攻略：<a href="#%E4%BC%9A%E5%91%98">会员</a>，<a href="#%E6%AF%8F%E5%91%A8%E4%BF%83%E9%94%80">每周促销</a>，<a href="#%E4%BC%98%E6%83%A0%E5%88%B8">优惠券</a>，<a href="#%E6%B7%BB%E5%8A%A0%E7%94%B5%E5%AD%90%E4%BC%98%E6%83%A0%E5%88%B8%E8%84%9A%E6%9C%AC">添加优惠券脚本</a>。</p>
+<!-- more -->
+<h1 id="会员">会员</h1>
+<p>购物消费：1积分/$1。<br>
+小票问卷：50积分/次。每7天限参加1次。<br>
+积分按月累计，次月底过期。每100积分可在Kroger（可累积）/ Shell（不可累积）兑换加油$0.1/gal减免。积分价值$15/1k。</p>
+<h1 id="每周促销"><a href="https://www.kroger.com/weeklyad">每周促销</a></h1>
+<p>周三 - 次周二</p>
+<h1 id="优惠券">优惠券</h1>
+<p><a href="https://www.kroger.com/cl/coupons/">电子优惠券</a>：网上获取，上限150个。通过<a href="#%E6%B7%BB%E5%8A%A0%E7%94%B5%E5%AD%90%E4%BC%98%E6%83%A0%E5%88%B8%E8%84%9A%E6%9C%AC">脚本</a>自动添加。<br>
+周五免费商品：每月第一个周五，电子优惠券。<br>
+纸质优惠券：不定期邮寄。</p>
+<h1 id="添加电子优惠券脚本">添加电子优惠券脚本</h1>
+<p>访问<a href="https://www.kroger.com/cl/coupons/">电子优惠券</a>页面，打开浏览器控制台（F12 - Console)，粘贴运行以下代码。</p>
+<pre><code>function sleep(ms) {
+return new Promise(resolve =&gt; setTimeout(resolve, ms));}
+async function main() {
+console.log('开始加载页面...');
+&lt;kbd&gt;for(var i = 0; i &lt;3; i++) {&lt;/kbd&gt;
+console.log('加载第' + (i+1) +'页...');
+scrollTo(0,Math.max(document.documentElement.scrollHeight,document.documentElement.clientHeight)-1000);
+await sleep(3000)}
+scrollTo(0,0)
+console.log('开始获取Coupon...');
+var buttons = document.getElementsByClassName('kds-Button kds-Button--favorable kds-Button--compact CouponActionButton CouponCard-button ml-4 body-m CouponBtn-text');
+console.log('获取到' + buttons.length +'个Coupon...');
+console.log('开始加载Coupon...');
+for(var i = 0; i &lt; buttons.length; i++)  {
+buttons[i].click();
+console.log('clicked button ' +(i+1));
+await sleep(500)}
+console.log('Coupon加载完成...');}
+main()
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[美国旅游景点排名]]></title>
         <id>https://zkphyj.github.io/post/us-travel/</id>
