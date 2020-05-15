@@ -7,7 +7,7 @@
 <title>
     Kroger购物优惠攻略 | 雪泥鸿爪
 </title>
-<link rel="shortcut icon" href="https://zkphyj.github.io/favicon.ico?v=1589581820880">
+<link rel="shortcut icon" href="https://zkphyj.github.io/favicon.ico?v=1589583277318">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -47,7 +47,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://zkphyj.github.io">
-                <img class="avatar" src="https://zkphyj.github.io/images/avatar.png?v=1589581820880" alt="">
+                <img class="avatar" src="https://zkphyj.github.io/images/avatar.png?v=1589583277318" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -150,26 +150,25 @@
 纸质优惠券：不定期邮寄。</p>
 <h1 id="自动添加电子优惠券脚本">自动添加电子优惠券脚本</h1>
 <p>访问<a href="https://www.kroger.com/cl/coupons/">电子优惠券</a>页面，打开浏览器控制台（F12 - Console)，粘贴运行以下代码。</p>
-<pre><code>function sleep(ms) {
-return new Promise(resolve =&gt; setTimeout(resolve, ms));}
-async function main() {
-console.log('开始加载页面...');
-&lt;kbd&gt;for(var i = 0; i &lt;3; i++) {&lt;/kbd&gt;
-console.log('加载第' + (i+1) +'页...');
-scrollTo(0,Math.max(document.documentElement.scrollHeight,document.documentElement.clientHeight)-1000);
-await sleep(3000)}
-scrollTo(0,0)
-console.log('开始获取Coupon...');
-var buttons = document.getElementsByClassName('kds-Button kds-Button--favorable kds-Button--compact CouponActionButton CouponCard-button ml-4 body-m CouponBtn-text');
-console.log('获取到' + buttons.length +'个Coupon...');
-console.log('开始加载Coupon...');
-for(var i = 0; i &lt; buttons.length; i++)  {
-buttons[i].click();
-console.log('clicked button ' +(i+1));
-await sleep(500)}
-console.log('Coupon加载完成...');}
-main()
-</code></pre>
+<p>function sleep(ms) {<br>
+return new Promise(resolve =&gt; setTimeout(resolve, ms));}<br>
+async function main() {<br>
+console.log('开始加载页面...');<br>
+for(var i=0; i&lt;3; i++) {<br>
+console.log('加载第'+(i+1)+'页！');<br>
+scrollTo(0,Math.max(document.documentElement.scrollHeight,document.documentElement.clientHeight)-1000);<br>
+await sleep(3000)}<br>
+scrollTo(0,0)<br>
+console.log('开始获取优惠券...');<br>
+var buttons = document.getElementsByClassName('kds-Button kds-Button--favorable kds-Button--compact CouponActionButton CouponCard-button ml-4 body-m CouponBtn-text');<br>
+console.log('获取到'+buttons.length+'个优惠券！');<br>
+console.log('开始加载优惠券...');<br>
+for(var i=0; i&lt;buttons.length; i++)  {<br>
+buttons[i].click();<br>
+console.log('添加第'+(i+1)+'个优惠券！');<br>
+await sleep(500)}<br>
+console.log('优惠券添加完成！');}<br>
+main()</p>
 
                                 </div>
                     </article>
