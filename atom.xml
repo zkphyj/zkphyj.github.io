@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zkphyj.github.io</id>
     <title>雪泥鸿爪</title>
-    <updated>2020-05-15T23:43:17.732Z</updated>
+    <updated>2020-05-16T00:11:41.153Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zkphyj.github.io"/>
     <link rel="self" href="https://zkphyj.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://zkphyj.github.io/post/kroger/</id>
         <link href="https://zkphyj.github.io/post/kroger/">
         </link>
-        <updated>2020-05-15T10:43:09.000Z</updated>
+        <updated>2020-05-15T11:11:28.000Z</updated>
         <summary type="html"><![CDATA[<p>Kroger（克罗格）是美国大型连锁超市，本文将介绍Kroger购物优惠攻略：会员 / 每周促销 / 优惠券，并提供自动添加电子优惠券脚本。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>Kroger（克罗格）是美国大型连锁超市，本文将介绍Kroger购物优惠攻略：会员 / 每周促销 / 优惠券，并提供自动添加电子优惠券脚本。</p>
@@ -35,16 +35,15 @@
 <p>function sleep(ms) {<br>
 return new Promise(resolve =&gt; setTimeout(resolve, ms));}<br>
 async function main() {<br>
-var buttons = document.getElementsByClassName('kds-Button kds-Button--favorable kds-Button--compact CouponActionButton CouponCard-button ml-4 body-m CouponBtn-text');<br>
 for(var i=0; i&lt;3; i++) {<br>
-console.log('加载第'+(i+1)+'页！');<br>
-scrollTo(0, Math.max(document.documentElement.scrollHeight, document.documentElement.clientHeight)-1000);<br>
+console.log('开始加载第'+(i+1)+'页...');<br>
+scrollTo(0, Math.max( document.documentElement.scrollHeight, document.documentElement.clientHeight)-1000);<br>
 await sleep(3000)}<br>
 scrollTo(0,0)<br>
 console.log('开始获取优惠券...');<br>
 var buttons = document.getElementsByClassName('kds-Button kds-Button--favorable kds-Button--compact CouponActionButton CouponCard-button ml-4 body-m CouponBtn-text');<br>
-console.log('获取到'+buttons.length+'个优惠券！');<br>
 var number=buttons.length;<br>
+console.log('获取到'+number+'个优惠券！');<br>
 for(var i=0; i&lt;number; i++) {<br>
 buttons[0].click();<br>
 console.log('添加第'+(i+1)+'个优惠券！');<br>
