@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    Kroger购物优惠攻略 | 雪泥鸿爪
+    Target购物优惠攻略 | 雪泥鸿爪
 </title>
 <link rel="shortcut icon" href="https://zkphyj.github.io/favicon.ico?v=1589736252386">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -118,53 +118,49 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            Kroger购物优惠攻略
+                            Target购物优惠攻略
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2020-05-15</time>
+                            <time class="post-time">2020-05-16</time>
                             
                                 <a href="https://zkphyj.github.io/tag/shop/" class="post-tag i-tag
-                            i-tag-error">
+                            i-tag-other_3">
                             #购物
                         </a>
                                 
                                 <a href="https://zkphyj.github.io/tag/us/" class="post-tag i-tag
-                            i-tag-info">
+                            i-tag-other_3">
                             #美国
                         </a>
                                 
                         </div>
                         
                                 <div class="post-content">
-                                    <p>Kroger（克罗格）是美国大型连锁超市，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：47。<br>
-本文将介绍Kroger购物优惠攻略：会员 / 每周促销 / 优惠券，并提供自动添加电子优惠券脚本。</p>
+                                    <p>Target（塔吉特）是美国大型连锁超市，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：122。<br>
+本文将介绍Target购物优惠攻略：会员 / 每周促销 / 优惠券，并提供自动添加电子优惠券脚本。</p>
 <!-- more -->
 <h1 id="会员">会员</h1>
-<p>购物消费：1积分/$1。<br>
-小票问卷：50积分/次。每7天限参加1次。<br>
-积分按月累计，次月底过期。每100积分可在Kroger（可累积）/ Shell（不可累积）兑换加油$0.1/gal减免。积分价值$15/1k。</p>
-<h1 id="每周促销"><a href="https://www.kroger.com/weeklyad">每周促销</a></h1>
-<p>周三 ~ 次周二</p>
+<p>购物消费：使用RedCard获得5%折扣。</p>
+<h1 id="每周促销"><a href="https://weeklyad.target.com/">每周促销</a></h1>
+<p>周日 ~ 次周六</p>
 <h1 id="优惠券">优惠券</h1>
-<p><a href="https://www.kroger.com/cl/coupons/">电子优惠券</a>：网上获取，上限150个。通过<a href="#%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%94%B5%E5%AD%90%E4%BC%98%E6%83%A0%E5%88%B8%E8%84%9A%E6%9C%AC">脚本</a>自动添加。<br>
-<a href="https://www.kroger.com/pr/free-friday-download-deal">周五免费商品</a>：每月第一个周五，电子优惠券。<br>
-纸质优惠券：不定期邮寄。</p>
+<p><a href="https://circle.target.com/browse">电子优惠券</a>：网上获取，上限75个。通过<a href="#%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%94%B5%E5%AD%90%E4%BC%98%E6%83%A0%E5%88%B8%E8%84%9A%E6%9C%AC">脚本</a>自动添加。</p>
 <h1 id="自动添加电子优惠券脚本">自动添加电子优惠券脚本</h1>
-<p>访问<a href="https://www.kroger.com/cl/coupons/">电子优惠券</a>页面，打开浏览器控制台（F12 - Console)，粘贴运行以下代码。</p>
+<p>访问<a href="https://circle.target.com/browse">电子优惠券</a>页面，打开浏览器控制台（F12 - Console)，粘贴运行以下代码。</p>
 <p>function sleep(ms) {<br>
 return new Promise(resolve =&gt; setTimeout(resolve, ms));}<br>
 async function main() {<br>
-for(var i=0; i&lt;3; i++) {<br>
+for(var i=0; i&lt;2; i++) {<br>
 console.log('开始加载第'+(i+1)+'页...');<br>
 scrollTo(0, Math.max( document.documentElement.scrollHeight, document.documentElement.clientHeight)-1000);<br>
 await sleep(3000)}<br>
 scrollTo(0,0)<br>
 console.log('开始获取优惠券...');<br>
-var buttons = document.getElementsByClassName('kds-Button kds-Button--favorable kds-Button--compact CouponActionButton CouponCard-button ml-4 body-m CouponBtn-text');<br>
+var buttons = document.getElementsByClassName('sc-fQejPQ bPalvw');<br>
 var number=buttons.length;<br>
 console.log('获取到'+number+'个优惠券！');<br>
 for(var i=0; i&lt;number; i++) {<br>
-buttons[0].click();<br>
+buttons[i].click();<br>
 console.log('添加第'+(i+1)+'个优惠券！');<br>
 await sleep(1000)}<br>
 console.log('优惠券添加完成！');}<br>
@@ -176,9 +172,9 @@ main()</p>
                     
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://zkphyj.github.io/post/us-travel/">
+                            <a href="https://zkphyj.github.io/post/kroger/">
                                 <h3 class="post-title">
-                                    美国旅游景点排名
+                                    Kroger购物优惠攻略
                                 </h3>
                             </a>
                         </div>
