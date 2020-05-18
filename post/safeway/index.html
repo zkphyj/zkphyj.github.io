@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    关于 | 雪泥鸿爪
+    Safeway购物优惠攻略 | 雪泥鸿爪
 </title>
 <link rel="shortcut icon" href="https://zkphyj.github.io/favicon.ico?v=1589825437560">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -118,20 +118,73 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            关于
+                            Safeway购物优惠攻略
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2020-05-15</time>
+                            <time class="post-time">2020-05-18</time>
                             
+                                <a href="https://zkphyj.github.io/tag/shop/" class="post-tag i-tag
+                            i-tag-error">
+                            #购物
+                        </a>
+                                
+                                <a href="https://zkphyj.github.io/tag/us/" class="post-tag i-tag
+                            i-tag-error">
+                            #美国
+                        </a>
+                                
                         </div>
                         
                                 <div class="post-content">
-                                    <p>欢迎来到我的小站！</p>
+                                    <p>Safeway（西夫韦）是美国大型连锁超市。<br>
+本文将介绍Safeway购物优惠攻略：会员 / 每周促销 / 优惠券，并提供自动添加电子优惠券脚本。</p>
+<!-- more -->
+<h1 id="会员">会员</h1>
+<p>使用方法：收银台输入手机号码。<br>
+购物消费：1积分/$1。<br>
+每100积分可兑换加油$0.1/gal减免或免费商品。积分价值$10/1k。</p>
+<h1 id="每周促销"><a href="https://coupons.randalls.com/weeklyad/">每周促销</a></h1>
+<p>周三 ~ 次周二</p>
+<h1 id="优惠券">优惠券</h1>
+<p><a href="https://www.randalls.com/justforu/coupons-deals.html">电子优惠券</a>：网上获取。通过<a href="#%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%94%B5%E5%AD%90%E4%BC%98%E6%83%A0%E5%88%B8%E8%84%9A%E6%9C%AC">脚本</a>自动添加。<br>
+纸质优惠券：店内货架处获取。</p>
+<h1 id="自动添加电子优惠券脚本">自动添加电子优惠券脚本</h1>
+<p>访问<a href="https://www.randalls.com/justforu/coupons-deals.html">电子优惠券</a>页面，打开浏览器控制台（F12 - Console)，粘贴运行以下代码。</p>
+<p>function sleep(ms) {<br>
+return new Promise(resolve =&gt; setTimeout(resolve, ms));}<br>
+async function main() {<br>
+for(var i=0; i&lt;10; i++) {<br>
+console.log('开始加载第'+(i+1)+'页...');<br>
+var buttons=document.getElementsByClassName('btn load-more');<br>
+if (buttons.length&gt;0) {<br>
+buttons[0].click();<br>
+scrollTo(0, Math.max( document.documentElement.scrollHeight, document.documentElement.clientHeight));<br>
+await sleep(2000);}}<br>
+scrollTo(0,0)<br>
+console.log('开始获取优惠券...');<br>
+var buttons = document.getElementsByClassName('btn grid-coupon-btn btn-default');<br>
+var number=buttons.length;<br>
+console.log('获取到'+number+'个优惠券！');<br>
+for(var i=0; i&lt;number; i++) {<br>
+buttons[i].click();<br>
+console.log('添加第'+(i+1)+'个优惠券！');<br>
+await sleep(500)}<br>
+console.log('优惠券添加完成！');}<br>
+main()</p>
 
                                 </div>
                     </article>
                     <!--  -->
                     
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://zkphyj.github.io/post/heb/">
+                                <h3 class="post-title">
+                                    H-E-B购物优惠攻略
+                                </h3>
+                            </a>
+                        </div>
+                        
                             <div id="disqus_thread"></div>
                             <div id="gitalk-container"></div>
                 </div>
@@ -140,32 +193,45 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://zkphyj.github.io/images/avatar.png?v=1589825437560)">
-        </div>
-        <h1 class="id_card-title">
-            雪泥鸿爪
-        </h1>
-        <h2 class="id_card-description">
-            一亩三分地
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li><a href="#%E4%BC%9A%E5%91%98">会员</a></li>
+<li><a href="#%E6%AF%8F%E5%91%A8%E4%BF%83%E9%94%80">每周促销</a></li>
+<li><a href="#%E4%BC%98%E6%83%A0%E5%88%B8">优惠券</a></li>
+<li><a href="#%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%94%B5%E5%AD%90%E4%BC%98%E6%83%A0%E5%88%B8%E8%84%9A%E6%9C%AC">自动添加电子优惠券脚本</a></li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
