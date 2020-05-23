@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zkphyj.github.io</id>
+    <id>http://localhost:4000</id>
     <title>雪泥鸿爪</title>
-    <updated>2020-05-23T19:15:19.641Z</updated>
+    <updated>2020-05-23T20:56:42.607Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zkphyj.github.io"/>
-    <link rel="self" href="https://zkphyj.github.io/atom.xml"/>
+    <link rel="alternate" href="http://localhost:4000"/>
+    <link rel="self" href="http://localhost:4000/atom.xml"/>
     <subtitle>一亩三分地</subtitle>
-    <logo>https://zkphyj.github.io/images/avatar.png</logo>
-    <icon>https://zkphyj.github.io/favicon.ico</icon>
+    <logo>http://localhost:4000/images/avatar.png</logo>
+    <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2020, 雪泥鸿爪</rights>
     <entry>
         <title type="html"><![CDATA[酒店会员攻略]]></title>
-        <id>https://zkphyj.github.io/post/hotel/</id>
-        <link href="https://zkphyj.github.io/post/hotel/">
+        <id>http://localhost:4000/post/hotel/</id>
+        <link href="http://localhost:4000/post/hotel/">
         </link>
         <updated>2020-05-24T05:04:00.000Z</updated>
         <summary type="html"><![CDATA[<p>本文将介绍美国主流酒店的会员计划及优惠。</p>
@@ -47,14 +47,50 @@ Free Night：信用卡奖励（Membership Year）。<br>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Discover信用卡攻略]]></title>
-        <id>https://zkphyj.github.io/post/discover/</id>
-        <link href="https://zkphyj.github.io/post/discover/">
+        <title type="html"><![CDATA[American Express信用卡攻略]]></title>
+        <id>http://localhost:4000/post/amex/</id>
+        <link href="http://localhost:4000/post/amex/">
         </link>
         <updated>2020-05-23T06:13:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Discover（发现）是美国大型金融服务机构，本文将介绍Discover信用卡的特色及优惠。</p>
+        <summary type="html"><![CDATA[<p>American Express（美国运通）是美国大型金融服务公司，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：270。<br>
+本文将介绍American Express信用卡的特色及优惠。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>Discover（发现）是美国大型金融服务机构，本文将介绍Discover信用卡的特色及优惠。</p>
+        <content type="html"><![CDATA[<p>American Express（美国运通）是美国大型金融服务公司，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：270。<br>
+本文将介绍American Express信用卡的特色及优惠。</p>
+<!-- more -->
+<h1 id="amex-everyday"><a href="https://www.americanexpress.com/us/credit-cards/card/amex-everyday/">AmEx EveryDay</a></h1>
+<p><font color=Blue>无年费</font><br>
+<font color=Blue>返现</font>：<br>
+Amex Membership Rewards（MR），积分价值：$16/1K。<br>
+超市：2MR/$1，其他：1MR/$1。</p>
+<h1 id="amex-hilton-honors"><a href="https://www.americanexpress.com/us/credit-cards/card/hilton-honors/">AmEx Hilton Honors</a></h1>
+<p><font color=Blue>无年费</font><br>
+<font color=Blue>返现</font>：<br>
+Hilton Honors积分，积分价值：$4/1K。<br>
+Hilton消费：7积分/$1，超市 / 餐馆 / 加油：5积分/$1，其他：3积分/$1。</p>
+<h1 id="amex-hilton-honors-aspire"><a href="https://www.americanexpress.com/us/credit-cards/card/hilton-honors-aspire">AmEx Hilton Honors Aspire</a></h1>
+<p><font color=Blue>年费</font>：$450。<br>
+<font color=Blue>返现</font>：<br>
+Hilton Honors积分，积分价值：$4/1K。<br>
+Hilton消费：14积分/$1，超市 / 旅行：7积分/$1，其他：3积分/$1。<br>
+<font color=Blue>福利</font>：<br>
+赠送Hilton Diamond会员<br>
+Free Weekend Night：Membership Year。<br>
+$250 <a href="https://www3.hilton.com/en/resorts/index.html">Hilton Resort</a> 报销：Calendar Year。<br>
+$100 <a href="https://www.hiltonhonorsaspirecard.com/">Waldorf Astoria / Conrad</a> Credit：至少预订两晚，消费券，每次预订。<br>
+$250航空报销：<a href="https://www.uscreditcardguide.com/how-to-use-airline-gc-to-get-prg-and-amex-platinum-air-credit/">Southwest小额机票</a>（&lt;$100）报销后改签。<br>
+赠送Priority Pass Select：免费机场休息室（不含餐馆）。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Discover信用卡攻略]]></title>
+        <id>http://localhost:4000/post/discover/</id>
+        <link href="http://localhost:4000/post/discover/">
+        </link>
+        <updated>2020-05-23T06:13:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Discover（发现）是美国大型金融服务公司，本文将介绍Discover信用卡的特色及优惠。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Discover（发现）是美国大型金融服务公司，本文将介绍Discover信用卡的特色及优惠。</p>
 <!-- more -->
 <h1 id="discover-it"><a href="https://www.discover.com/credit-cards/cash-back/it-card.html">Discover It</a></h1>
 <p><font color=Blue>无年费</font><br>
@@ -68,14 +104,14 @@ Cash Back折扣兑换礼品卡。</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chase信用卡攻略]]></title>
-        <id>https://zkphyj.github.io/post/chase/</id>
-        <link href="https://zkphyj.github.io/post/chase/">
+        <id>http://localhost:4000/post/chase/</id>
+        <link href="http://localhost:4000/post/chase/">
         </link>
         <updated>2020-05-21T09:04:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>JPMorgan Chase（摩根大通）是美国最大的金融服务机构，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：41。<br>
+        <summary type="html"><![CDATA[<p>JPMorgan Chase（摩根大通）是美国最大的金融服务公司，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：41。<br>
 本文将介绍Chase信用卡的特色及优惠。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>JPMorgan Chase（摩根大通）是美国最大的金融服务机构，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：41。<br>
+        <content type="html"><![CDATA[<p>JPMorgan Chase（摩根大通）是美国最大的金融服务公司，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：41。<br>
 本文将介绍Chase信用卡的特色及优惠。</p>
 <!-- more -->
 <h1 id="chase-freedom"><a href="https://creditcards.chase.com/cash-back-credit-cards/freedom/card">Chase Freedom</a></h1>
@@ -134,8 +170,8 @@ Free Night：Membership Year，40k及以下，不可累积。<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[Albertsons购物优惠攻略]]></title>
-        <id>https://zkphyj.github.io/post/albertsons/</id>
-        <link href="https://zkphyj.github.io/post/albertsons/">
+        <id>http://localhost:4000/post/albertsons/</id>
+        <link href="http://localhost:4000/post/albertsons/">
         </link>
         <updated>2020-05-18T05:09:00.000Z</updated>
         <summary type="html"><![CDATA[<p><a href="https://www.albertsonscompanies.com/home.html">Albertsons（艾伯森）</a>是美国大型连锁超市，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：165。<br>
@@ -179,8 +215,8 @@ main()</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[H-E-B购物优惠攻略]]></title>
-        <id>https://zkphyj.github.io/post/heb/</id>
-        <link href="https://zkphyj.github.io/post/heb/">
+        <id>http://localhost:4000/post/heb/</id>
+        <link href="http://localhost:4000/post/heb/">
         </link>
         <updated>2020-05-17T08:09:00.000Z</updated>
         <summary type="html"><![CDATA[<p>H-E-B是美国德州连锁超市。<br>
@@ -220,8 +256,8 @@ main()</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Target购物优惠攻略]]></title>
-        <id>https://zkphyj.github.io/post/target/</id>
-        <link href="https://zkphyj.github.io/post/target/">
+        <id>http://localhost:4000/post/target/</id>
+        <link href="http://localhost:4000/post/target/">
         </link>
         <updated>2020-05-17T04:21:08.000Z</updated>
         <summary type="html"><![CDATA[<p>Target（塔吉特）是美国大型连锁超市，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：122。<br>
@@ -261,8 +297,8 @@ main()</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kroger购物优惠攻略]]></title>
-        <id>https://zkphyj.github.io/post/kroger/</id>
-        <link href="https://zkphyj.github.io/post/kroger/">
+        <id>http://localhost:4000/post/kroger/</id>
+        <link href="http://localhost:4000/post/kroger/">
         </link>
         <updated>2020-05-15T11:11:28.000Z</updated>
         <summary type="html"><![CDATA[<p><a href="https://www.thekrogerco.com/about-kroger/our-business/grocery-retail/">Kroger（克罗格）</a>是美国大型连锁超市，2019年<a href="http://www.fortunechina.com/fortune500/index.htm">《财富》世界排名</a>：47。<br>
@@ -306,8 +342,8 @@ main()</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[美国旅游景点排名]]></title>
-        <id>https://zkphyj.github.io/post/us-travel/</id>
-        <link href="https://zkphyj.github.io/post/us-travel/">
+        <id>http://localhost:4000/post/us-travel/</id>
+        <link href="http://localhost:4000/post/us-travel/">
         </link>
         <updated>2020-05-15T06:52:23.000Z</updated>
         <summary type="html"><![CDATA[<p>美国热门旅游景点排名。<br>
@@ -932,8 +968,8 @@ main()</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[中国旅游景点排名]]></title>
-        <id>https://zkphyj.github.io/post/china-travel/</id>
-        <link href="https://zkphyj.github.io/post/china-travel/">
+        <id>http://localhost:4000/post/china-travel/</id>
+        <link href="http://localhost:4000/post/china-travel/">
         </link>
         <updated>2020-05-15T06:51:53.000Z</updated>
         <summary type="html"><![CDATA[<p>中国热门旅游景点排名。<br>
@@ -1554,16 +1590,6 @@ main()</p>
 </tr>
 </tbody>
 </table>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://zkphyj.github.io/post/hello-world/</id>
-        <link href="https://zkphyj.github.io/post/hello-world/">
-        </link>
-        <updated>2020-05-15T06:11:17.000Z</updated>
-        <content type="html"><![CDATA[<p>开辟一片新的天地，<br>
-记录生活乐趣，分享点滴感悟。</p>
 ]]></content>
     </entry>
 </feed>
