@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zkphyj.github.io</id>
     <title>雪泥鸿爪</title>
-    <updated>2020-05-21T22:13:19.957Z</updated>
+    <updated>2020-05-23T19:12:32.660Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zkphyj.github.io"/>
     <link rel="self" href="https://zkphyj.github.io/atom.xml"/>
@@ -10,6 +10,62 @@
     <logo>https://zkphyj.github.io/images/avatar.png</logo>
     <icon>https://zkphyj.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 雪泥鸿爪</rights>
+    <entry>
+        <title type="html"><![CDATA[酒店会员攻略]]></title>
+        <id>https://zkphyj.github.io/post/hotel/</id>
+        <link href="https://zkphyj.github.io/post/hotel/">
+        </link>
+        <updated>2020-05-24T05:04:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>本文将介绍美国主流酒店的会员计划及优惠。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本文将介绍美国主流酒店的会员计划及优惠。</p>
+<!-- more -->
+<h1 id="hilton希尔顿"><a href="https://www.hilton.com/">Hilton（希尔顿）</a></h1>
+<p>待完善。</p>
+<h1 id="hyatt凯悦"><a href="https://www.hyatt.com/">Hyatt（凯悦）</a></h1>
+<p><font color=Blue>会员计划</font>：World of Hyatt（凯悦天地）<br>
+<font color=Blue>会员等级</font>：Explorist（冒险家）<br>
+<font color=Blue>获得途径</font>：<a href="https://www.uscreditcardguide.com/hyatt-explorist-yu-mgm-gold-huxiangmatchyongjiubaojigonglue2020-2-gengxingaimatchle/">MGM匹配</a>（每年2月份）<br>
+<font color=Blue>注意事项</font>：连续24个月没有活动的账户将被关闭。<br>
+<a href="https://world.hyatt.com/content/gp/zh-hans/member-benefits/explorist.html"><font color=Blue>会员福利</font></a>：<br>
+住宿返现：6积分/$1。积分价值：$16/1k。<br>
+<a href="https://www.uscreditcardguide.com/breakfast-policies-hotel-chains/#Hyatt">免费早餐</a>：Hyatt House，Hyatt Place等。<br>
+Free Night：信用卡奖励（Membership Year），住宿5个不同品牌（终身1次）。<br>
+免除Resort Fee：积分兑换。<br>
+<a href="https://www.uscreditcardguide.com/exhale-fitness-class-world-of-hyatt/">Exhale</a>：免费一周健身会员。</p>
+<h1 id="intercontinental-hotels-groupihg洲际"><a href="https://www.ihg.com/">InterContinental Hotels Group（IHG，洲际）</a></h1>
+<p><font color=Blue>会员计划</font>：IHG Rewards Club（洲际优悦会）<br>
+<font color=Blue>会员等级</font>：Spire（至悦）<br>
+<font color=Blue>获得途径</font>：会籍匹配<br>
+<font color=Blue>注意事项</font>：高级会员 / 持有信用卡积分不过期。<br>
+<a href="https://www.ihg.com/rewardsclub/content/cn/zh/enjoy-rewards"><font color=Blue>会员福利</font></a>：<br>
+住宿返现：20积分/$1。积分价值：$5/1k。<br>
+<a href="https://www.uscreditcardguide.com/breakfast-policies-hotel-chains/#IHG">免费早餐</a>：Holiday Inn Express，Staybridge Suites。<br>
+Free Night：信用卡奖励（Membership Year）。<br>
+<a href="https://www.ihg.com/content/us/en/offers">活动</a>：Points Break，Accelerate。<br>
+大中华地区：<a href="https://www.uscreditcards101.com/ihg-greaten-china-spire-elite-benefit-2019-2020-weekend-promotion-review/">周末折扣</a>，<a href="https://www.uscreditcards101.com/ihg-greaten-china-spire-elite-benefit-2019-2020-weekend-promotion-review/">Spire专属礼遇</a>，<a href="https://www.uscreditcards101.com/ihg-20-rmb-double-breakfast-greater-china-dec-2019/">冬季特价双早</a>。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Discover信用卡攻略]]></title>
+        <id>https://zkphyj.github.io/post/discover/</id>
+        <link href="https://zkphyj.github.io/post/discover/">
+        </link>
+        <updated>2020-05-23T06:13:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Discover（发现）是美国大型金融服务机构，本文将介绍Discover信用卡的特色及优惠。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Discover（发现）是美国大型金融服务机构，本文将介绍Discover信用卡的特色及优惠。</p>
+<!-- more -->
+<h1 id="discover-it"><a href="https://www.discover.com/credit-cards/cash-back/it-card.html">Discover IT</a></h1>
+<p><font color=Blue>无年费</font><br>
+<font color=Blue>返现</font>：Cash Back。<br>
+<a href="https://www.discover.com/credit-cards/cashback-bonus/cashback-calendar.html">季度类别</a>：5%，其他：1%。<br>
+2020年二季度：加油，Uber / Lyft。三季度：餐馆，Paypal。四季度：Amazon / Walmart / Targer<br>
+<font color=Blue>福利</font>：<br>
+支持银联通道，无外币抓换费。<br>
+Cash Back折扣兑换礼品卡。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chase信用卡攻略]]></title>
         <id>https://zkphyj.github.io/post/chase/</id>
