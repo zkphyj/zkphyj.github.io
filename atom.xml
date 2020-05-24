@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zkphyj.github.io</id>
     <title>雪泥鸿爪</title>
-    <updated>2020-05-23T21:03:52.893Z</updated>
+    <updated>2020-05-24T02:00:08.347Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zkphyj.github.io"/>
     <link rel="self" href="https://zkphyj.github.io/atom.xml"/>
@@ -15,13 +15,23 @@
         <id>https://zkphyj.github.io/post/hotel/</id>
         <link href="https://zkphyj.github.io/post/hotel/">
         </link>
-        <updated>2020-05-24T05:04:00.000Z</updated>
+        <updated>2020-05-23T08:54:00.000Z</updated>
         <summary type="html"><![CDATA[<p>本文将介绍美国主流酒店的会员计划及优惠。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>本文将介绍美国主流酒店的会员计划及优惠。</p>
 <!-- more -->
 <h1 id="hilton希尔顿"><a href="https://www.hilton.com/">Hilton（希尔顿）</a></h1>
-<p>待完善。</p>
+<p><font color=Blue>会员计划</font>：Hilton Honors（希尔顿荣誉客会）<br>
+<font color=Blue>会员等级</font>：Diamond（钻石）<br>
+<font color=Blue>获得途径</font>：信用卡赠送<br>
+<font color=Blue>注意事项</font>：积分12个月过期，刷卡保持积分。<br>
+<a href="https://hiltonhonors3.hilton.com/zh_CN/explore/benefits/index.html"><font color=Blue>会员福利</font></a>：<br>
+住宿返现：20积分/$1。积分价值：$4/1k。<br>
+积分兑换第五晚免费。<br>
+<a href="https://www.uscreditcardguide.com/breakfast-policies-hotel-chains/#Hilton">免费早餐</a>：Hilton，Doubletree， Hilton Garden Inn等。<br>
+Free Night：信用卡奖励（限周末，Membership Year），$250 Resort Credit, $100 Waldorf Astoria / Conrad Credit。<br>
+免费使用行政酒廊。<br>
+免费房型升级。</p>
 <h1 id="hyatt凯悦"><a href="https://www.hyatt.com/">Hyatt（凯悦）</a></h1>
 <p><font color=Blue>会员计划</font>：World of Hyatt（凯悦天地）<br>
 <font color=Blue>会员等级</font>：Explorist（冒险家）<br>
