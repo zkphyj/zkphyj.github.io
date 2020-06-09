@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zkphyj.github.io</id>
     <title>雪泥鸿爪</title>
-    <updated>2020-06-09T14:43:09.432Z</updated>
+    <updated>2020-06-09T20:09:51.879Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zkphyj.github.io"/>
     <link rel="self" href="https://zkphyj.github.io/atom.xml"/>
@@ -31,7 +31,7 @@
 <p>生日礼物：$10，生日月1日到账，月底过期。</p>
 </li>
 <li>
-<p>[奇技淫巧] 免运费优惠券：2053，2054，4031，4035，4742，4751等。<br>
+<p>[奇技淫巧] 免运费优惠券：2053，2054，3496-3503，4031，4035，4742，4751等。<br>
 <a href="https://www.express.com/bag">购物车页面</a>获取优惠券<a href="http://www.anjian.com/">按键精灵</a>脚本：<br>
 For i=1 To 10000<br>
 KeyPress &quot;BackSpace&quot;, 5<br>
@@ -39,6 +39,21 @@ SayString CStr(Lib.算法.随机数字串(4))<br>
 KeyPress &quot;Enter&quot;, 1<br>
 Delay 1500<br>
 Next</p>
+</li>
+</ol>
+<hr>
+<h2 id="calvin-klein"><a href="https://www.calvinklein.us/">Calvin Klein</a></h2>
+<p><a href="https://www.pvh.com/brands">PVH集团</a>品牌。</p>
+<p><a href="https://www.calvinklein.us/en/preferred-loyalty-program">Preferred Loyalty Program</a>：</p>
+<ol>
+<li>
+<p>消费奖励：单次消费实付$1+，次年赠送$10，每年一次。2月初到账，有效期3个月。</p>
+</li>
+<li>
+<p>免运费：Shoprunner。</p>
+</li>
+<li>
+<p>[<a href="https://www.partnerbrands.com/">Van Heusen / IZOD</a>] 消费奖励：$5，不免运费。</p>
 </li>
 </ol>
 ]]></content>
