@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    Hello World | 雪泥鸿爪
+    美国服饰购物攻略 | 雪泥鸿爪
 </title>
 <link rel="shortcut icon" href="https://zkphyj.github.io/favicon.ico?v=1591713725174">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -118,21 +118,61 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            Hello World
+                            美国服饰购物攻略
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2020-05-15</time>
+                            <time class="post-time">2020-06-08</time>
                             
+                                <a href="https://zkphyj.github.io/tag/shop/" class="post-tag i-tag
+                            i-tag-warning">
+                            #购物
+                        </a>
+                                
+                                <a href="https://zkphyj.github.io/tag/us/" class="post-tag i-tag
+                            i-tag-">
+                            #美国
+                        </a>
+                                
                         </div>
                         
                                 <div class="post-content">
-                                    <p>开辟一片新的天地，<br>
-记录生活乐趣，分享点滴感悟。</p>
+                                    <p>本文将介绍美国各主要服饰零售集团的会员计划及特色优惠。</p>
+<!-- more -->  
+<hr>
+<h2 id="express"><a href="https://www.express.com/">Express</a></h2>
+<p><a href="https://www.express.com/g/next/program-benefits">Express Next Rewards</a>：</p>
+<ol>
+<li>
+<p><a href="https://www.express.com/my-account/my-rewards">更新信息</a>：$15，完成更新后2日内到账，有效期1个月，每年一次。</p>
+</li>
+<li>
+<p>生日礼物：$10，生日月1日到账，月底过期。</p>
+</li>
+<li>
+<p>[奇技淫巧] 免运费优惠券：2053，2054，4031，4035，4742，4751等。<br>
+<a href="https://www.express.com/bag">购物车页面</a>获取优惠券<a href="http://www.anjian.com/">按键精灵</a>脚本：<br>
+For i=1 To 10000<br>
+KeyPress &quot;BackSpace&quot;, 5<br>
+SayString CStr(Lib.算法.随机数字串(4))<br>
+KeyPress &quot;Enter&quot;, 1<br>
+Delay 1500<br>
+Next</p>
+</li>
+</ol>
 
                                 </div>
                     </article>
                     <!--  -->
                     
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://zkphyj.github.io/post/hotel/">
+                                <h3 class="post-title">
+                                    美国酒店会员攻略
+                                </h3>
+                            </a>
+                        </div>
+                        
                             <div id="disqus_thread"></div>
                             <div id="gitalk-container"></div>
                 </div>
@@ -141,32 +181,46 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://zkphyj.github.io/images/avatar.png?v=1591713725174)">
-        </div>
-        <h1 class="id_card-title">
-            雪泥鸿爪
-        </h1>
-        <h2 class="id_card-description">
-            一亩三分地
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#express">Express</a></li>
+</ul>
+</li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
