@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zkphyj.github.io</id>
     <title>雪泥鸿爪</title>
-    <updated>2020-06-09T20:44:13.077Z</updated>
+    <updated>2020-06-09T20:54:04.692Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zkphyj.github.io"/>
     <link rel="self" href="https://zkphyj.github.io/atom.xml"/>
@@ -31,7 +31,7 @@
 <p>生日礼物：$10，生日月1日到账，月底过期。</p>
 </li>
 <li>
-<p>[奇技淫巧] 免运费优惠券：2053、2054、3496-3503、4031、4035、4742、4751等，每单限1个优惠券。<br>
+<p>[奇技淫巧] 免运费优惠券：2053、2054、3496-3503、4031、4035、4742、4751等，每单限1个优惠券。Clearance只可使用运费优惠券，不可使用其他折扣优惠券。<br>
 <a href="https://www.express.com/bag">购物车页面</a>获取优惠券<a href="http://www.anjian.com/">按键精灵</a>脚本：<br>
 For i=1 To 10000<br>
 KeyPress &quot;BackSpace&quot;, 5<br>
