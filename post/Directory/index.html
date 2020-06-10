@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    关于 | 雪泥鸿爪
+    美国常用网址导航 | 雪泥鸿爪
 </title>
 <link rel="shortcut icon" href="https://zkphyj.github.io/favicon.ico?v=1591802995552">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -118,20 +118,49 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            关于
+                            美国常用网址导航
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2020-05-15</time>
+                            <time class="post-time">2020-06-09</time>
                             
+                                <a href="https://zkphyj.github.io/tag/us/" class="post-tag i-tag
+                            i-tag-other_1">
+                            #美国
+                        </a>
+                                
                         </div>
                         
                                 <div class="post-content">
-                                    <p>欢迎来到我的小站！</p>
+                                    <p>本文将介绍美国各常用网站。</p>
+<!-- more -->  
+<hr>
+<h2 id="信用卡信息">信用卡信息</h2>
+<p><a href="https://www.doctorofcredit.com/">Doctor of Credit</a><br>
+<a href="https://www.uscreditcardguide.com/">美国信用卡指南</a><br>
+<a href="https://www.uscreditcards101.com/">美国信用卡101</a><br>
+<a href="https://travelafterwork.com/">北美牧羊场</a></p>
+<h2 id="购物优惠信息">购物优惠信息</h2>
+<p><a href="https://hip2save.com/">Hip2Save</a><br>
+<a href="https://www.dealmoon.com/">北美省钱快报</a></p>
+<h2 id="免费赠品信息">免费赠品信息</h2>
+<p><a href="https://www.reddit.com/r/freebies/search?q=-flair%3Aexpired&amp;restrict_sr=on&amp;sort=new&amp;t=all">Freebies - Reddit</a><br>
+<a href="https://slickdeals.net/forums/filtered/?daysprune=-1&amp;vote=0&amp;f=4&amp;sort=threadstarted&amp;order=desc&amp;r=1">Freebies - Slickdeals</a></p>
+<h2 id="常用工具">常用工具</h2>
+<p>购物返现比较：<a href="https://www.cashbackmonitor.com/">Cashback Monitor</a></p>
 
                                 </div>
                     </article>
                     <!--  -->
                     
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://zkphyj.github.io/post/apparel/">
+                                <h3 class="post-title">
+                                    美国服饰购物优惠攻略
+                                </h3>
+                            </a>
+                        </div>
+                        
                             <div id="disqus_thread"></div>
                             <div id="gitalk-container"></div>
                 </div>
@@ -140,32 +169,49 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://zkphyj.github.io/images/avatar.png?v=1591802995552)">
-        </div>
-        <h1 class="id_card-title">
-            雪泥鸿爪
-        </h1>
-        <h2 class="id_card-description">
-            一亩三分地
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E4%BF%A1%E7%94%A8%E5%8D%A1%E4%BF%A1%E6%81%AF">信用卡信息</a></li>
+<li><a href="#%E8%B4%AD%E7%89%A9%E4%BC%98%E6%83%A0%E4%BF%A1%E6%81%AF">购物优惠信息</a></li>
+<li><a href="#%E5%85%8D%E8%B4%B9%E8%B5%A0%E5%93%81%E4%BF%A1%E6%81%AF">免费赠品信息</a></li>
+<li><a href="#%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7">常用工具</a></li>
+</ul>
+</li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
