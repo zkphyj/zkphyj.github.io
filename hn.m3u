@@ -1,94 +1,58 @@
 #EXTM3U
-#湖南酒店直播源，最后更新：2024.12.19
+#咪咕代理直播源，最后更新：2024.12.21
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1 综合
-http://111.8.224.6:9999/tsfile/live/1063_1.m3u8
+https://migu.freetv.top/migu/608807420.m3u8?migutoken=0611b1776881f0350eb683c15abca9c639cc9d1f352135f3f5f5be301b467ab366b8c764045d2bf3b3e2d6f542ae6b1bbdeaa9770364b1f5e99f7b268544170afe82ac4231aae0cb2ac9f057a9
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2 财经
-http://111.8.224.6:9999/tsfile/live/1002_1.m3u8
+https://migu.freetv.top/migu/631780532.m3u8?migutoken=a7c3b2e45cf834a10f8b7a8a41da72e71354964d0861ff706e2a0e9399e0a8c8719846b457eb5a953fddc5bb448ece112fcb5058fd1426fa235930c8875149b011f0f87703b0f549b898fb5059
 #EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3 综艺
-http://111.8.224.6:9999/tsfile/live/1003_1.m3u8
+https://migu.freetv.top/migu/624878271.m3u8?migutoken=8b69c026eb2d590a84a6fa896e736448c85d7a70cbeed189c7980fe08f849689f24d7ac5d2c13773dbc6ad3e7f43ed0e18474b7aff803e19437dd62e099af51cae77db1bd7ae67d1a6dfe9e045
 #EXTINF:-1 tvg-id="4" tvg-name="CCTV4" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png" group-title="央视",CCTV-4 中文国际
-http://111.8.224.6:9999/tsfile/live/1007_1.m3u8
+https://migu.freetv.top/migu/631780421.m3u8?migutoken=802ee78d6df4f11ce84277f3307acb0272fdca1d1ad569385e4fce65ee11a630e54140c6446d48cd09bedb28ca817c45f0b5c21ba8344f80ba6cfe87265bee6d216746d60fd5f32bc699a4b67e
 #EXTINF:-1 tvg-id="5" tvg-name="CCTV5" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png" group-title="央视",CCTV-5 体育
-http://111.8.224.6:9999/tsfile/live/1008_1.m3u8
+https://migu.freetv.top/migu/641886683.m3u8?migutoken=85b4b90c46dea5e360baf7076d9fdb8abc67a6e1f624532ac36738b7ab1e44162761806389c7cee3075152e92bdb9f28fd528d7fd03b2eea3ce876e3c80b936ae1b3a9e165cb6793870428bd13
 #EXTINF:-1 tvg-id="7" tvg-name="CCTV6" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png" group-title="央视",CCTV-6 电影
-http://111.8.224.6:9999/tsfile/live/1024_1.m3u8
+https://migu.freetv.top/migu/624878396.m3u8?migutoken=1ec6711d53ff492c1406925c467bceb12ea9d90d677e7ed6e9260fb9ce0f46a9bb9432768c602af71a731a80ccdb806cb0de69aa878f9fa6ae49d16599cebb495d794a3985d52d2c05256d567e
 #EXTINF:-1 tvg-id="8" tvg-name="CCTV7" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png" group-title="央视",CCTV-7 国防军事
-http://111.8.224.6:9999/tsfile/live/1073_1.m3u8
+https://migu.freetv.top/migu/673168121.m3u8?migutoken=8531cf738b0fce45e24f05b47d2efcd2917d53bf9a367f5c2162bf7fc9e06eac051689811cdb376747386a8310621f86e63ff6f01aebd6b223b9f12b531860ccb882dc31319b4d7c36376a231d
 #EXTINF:-1 tvg-id="9" tvg-name="CCTV8" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png" group-title="央视",CCTV-8 电视剧
-http://111.8.224.6:9999/tsfile/live/1034_1.m3u8
+https://migu.freetv.top/migu/624878356.m3u8?migutoken=1aafaf516cacdbef65ea681f4b6a85b661ab1acf551668e90d44ad75b81a4a4ec461d6011f1e71cdbc95f65b8e5dbf77c688ad75b66705f3d980a5372024f8cf2d3a034f75d0017976152882eb
 #EXTINF:-1 tvg-id="10" tvg-name="CCTV9" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png" group-title="央视",CCTV-9 记录
-http://111.8.224.6:9999/tsfile/live/1036_1.m3u8
+https://migu.freetv.top/migu/673168140.m3u8?migutoken=77a73d702bc06a0bbba5be9c39ce5563e8454e40738eb28b997b3a4239a5701a88f061ab83e89f349386b27687b794e1a9cd4dce3d085ab24a4f1caf54840d027291a68ca566c4f8024b95eb84
 #EXTINF:-1 tvg-id="11" tvg-name="CCTV10" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png" group-title="央视",CCTV-10 科教
-http://111.8.224.6:9999/tsfile/live/1039_1.m3u8
+https://migu.freetv.top/migu/624878405.m3u8?migutoken=d70fc9b2594aec7c3e655ffea5ec6f6540e900086f867dc9348dabccabf3bc6616ba4fdaff8daabea5ab79351571731d23c61fed328d0ae0425e5cbfafdaa4a1593cd4adc7eb3a5799dca938c9
 #EXTINF:-1 tvg-id="12" tvg-name="CCTV11" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png" group-title="央视",CCTV-11 戏曲
-http://111.8.224.6:9999/tsfile/live/1041_1.m3u8
+https://migu.freetv.top/migu/667987558.m3u8?migutoken=1cfde677b1c0d0df4dd352ffee5c1ef8a313312dfed0dae36e6619ef43a5e59c961899db3145892559e7b4ef9d74a622936d79cd7b434f760a38a8c6a2c7777018aa724da19f99ebf9be7e7dcb
 #EXTINF:-1 tvg-id="13" tvg-name="CCTV12" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png" group-title="央视",CCTV-12 社会与法
-http://111.8.224.6:9999/tsfile/live/1043_1.m3u8
+https://migu.freetv.top/migu/673168185.m3u8?migutoken=648c6cf9ea0ba37bf4f4859b755e1ce9de965fb1f9c17aab1a8aadcc811bc4953be9e600ff0edada1184c1aa595050abb1ee878660ef3e90af50770d66cf3c9bcee820199483a3f403a2906127
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",CCTV-13 新闻
-http://111.8.224.6:9999/tsfile/live/1045_1.m3u8
+https://migu.freetv.top/migu/608807423.m3u8?migutoken=ab2760d1407b82c691e794af3c03235081f0214f0999b769f41fcc0798d2c27a19e0b2a1cfd0e119555fd01d526866c1e5ab09701f657a0ed45560f53430e751de6d4deeb0ebb9f9b5f1342ab7
 #EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视",CCTV-14 少儿
-http://111.8.224.6:9999/tsfile/live/1046_1.m3u8
+https://migu.freetv.top/migu/624878440.m3u8?migutoken=d428eb5f3b53ed7530de4bb5793a4a406a4caa316fbe8cd14d28cbc589e6fff4e420501c60a5df38f397f644ea0077a7bf7d652366a2062b44b91084eb96413a06dd4d18d717125b5a6730da3f
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15 音乐
-http://111.8.224.6:9999/tsfile/live/1049_1.m3u8
+https://migu.freetv.top/migu/673168223.m3u8?migutoken=c51a5e65e9ce292a27181fb3a32380091174393c5ea6faec0e5fd8b820c583342f0b8bae1e5b8531208ae2e10fb5b936428f8451fe0763597eec183e60ec4d9fe308f008d3e2416b76fe955b88
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 农村农业
-http://111.8.224.6:9999/tsfile/live/1025_1.m3u8
+https://migu.freetv.top/migu/673168256.m3u8?migutoken=1a19c9266584685773b352b3e622cfef4bc4bd9045487d5b6e552fc1bf985cd986d5039c1c97576b35882578bd75bba0cf420167ad512efc4343e926b3bfb845a3e8594e88f67c1a9e3880b015
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+ 体育赛事
-http://111.8.224.6:9999/tsfile/live/1052_1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="重温经典" tvg-logo="" group-title="央视",重温经典
-http://111.8.224.6:9999/tsfile/live/1054_1.m3u8
+https://migu.freetv.top/migu/641886773.m3u8?migutoken=bc50f487bb5a178849967075db86d3d25530e4a40c1bfd8edfaacbaf7ba1a2a9d64c4cd2aee3815457189db6f9fc227bcd2d64661402220669bcc4caf32047dad4128438e87f13251767dcf442
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
-http://111.8.224.6:9999/tsfile/live/1070_1.m3u8
-#EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视
-http://111.8.224.6:9999/tsfile/live/1065_1.m3u8
+https://migu.freetv.top/migu/623899368.m3u8?migutoken=c5779123bd4209dcf65e742529dec5f581dc06dfefc9e5f0ede3eb1ff171005ad3a639ee046d96d4334b78ab5b4db8e51664e8e9c37ad9d1d24f942f30027cbc31496cbc4ec2d2e95d169a12f9
 #EXTINF:-1 tvg-id="31" tvg-name="东方卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongfang.png" group-title="卫视",上海东方卫视
-http://111.8.224.6:9999/tsfile/live/1066_1.m3u8
+https://migu.freetv.top/migu/651632648.m3u8?migutoken=30c5f85dfe2084633ac96df07516b669b45dab38062f1c40c5197505806f5e1d6e63a64377681204a44ea02af30f484906c8e33750cec18c21b432f95530afb63c6bbdf3ec40cf9cedfc7c4a44
 #EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视
-http://111.8.224.6:9999/tsfile/live/1062_1.m3u8
-#EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视",深圳卫视
-http://111.8.224.6:9999/tsfile/live/1021_1.m3u8
-#EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视",浙江卫视
-http://111.8.224.6:9999/tsfile/live/1064_1.m3u8
-#EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视
-http://111.8.224.6:9999/tsfile/live/1009_1.m3u8
-#EXTINF:-1 tvg-id="38" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" group-title="卫视",山东卫视
-http://111.8.224.6:9999/tsfile/live/1067_1.m3u8
-#EXTINF:-1 tvg-id="39" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视",天津卫视
-http://111.8.224.6:9999/tsfile/live/1069_1.m3u8
-#EXTINF:-1 tvg-id="32" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="卫视",安徽卫视
-http://111.8.224.6:9999/tsfile/live/1057_1.m3u8
-#EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视
-http://111.8.224.6:9999/tsfile/live/1068_1.m3u8
-#EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视",辽宁卫视
-http://111.8.224.6:9999/tsfile/live/1060_1.m3u8
-#EXTINF:-1 tvg-id="40" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="卫视",重庆卫视
-http://111.8.224.6:9999/tsfile/live/1071_1.m3u8
+https://migu.freetv.top/migu/608831231.m3u8?migutoken=8682a67c51a42dbc01f70e4348e186ab3cfb6a1b981724bbf5c221f3bae3195029848702f4df149b9a6d2d748ef7127735075025f348b8b464f17d31e143a482eb0ec16abca10d1bb38834ad56
 #EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="卫视",江西卫视
-http://111.8.224.6:9999/tsfile/live/1019_1.m3u8
-#EXTINF:-1 tvg-id="56" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视",四川卫视.
-http://111.8.224.6:9999/tsfile/live/1056_1.m3u8
+https://migu.freetv.top/migu/783847495.m3u8?migutoken=7897e985db849121ccdeee6d92d1591711db497fc9a65519bfe6afdbb93c5a9069d731429b8ea61e65f4588cc923a69ac936043fdd59ae270497a87944d2862b3ee31c848387cd283712d0e8a6
 #EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视",湖北卫视
-http://111.8.224.6:9999/tsfile/live/1058_1.m3u8
+https://migu.freetv.top/migu/738906825.m3u8?migutoken=7deedd8905107b3c3e5e8deca57c884e544285143dae210096433a1b944a4be6be00dd6c19b99918edb7fef6750d33f3a95d6199c1df02bfad4571e28d28da8c805de5124d8332ff1fdb8e8b30
 #EXTINF:-1 tvg-id="47" tvg-name="河南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/henan.png" group-title="卫视",河南卫视
-http://111.8.224.6:9999/tsfile/live/1055_1.m3u8
+https://migu.freetv.top/migu/790187291.m3u8?migutoken=90f2ba427fefebc02a4a144e80fa8a3f2608b9246bd00e22193bf682f47f7f1ef829d3b90945a73e5cfc7ae3fc7ce4ae3c85449e283653662d255a52841741c8faf357a4e9adca7ece5d636501
 #EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视",吉林卫视
-http://111.8.224.6:9999/tsfile/live/1032_1.m3u8
-#EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视",河北卫视
-http://111.8.224.6:9999/tsfile/live/1059_1.m3u8
+https://migu.freetv.top/migu/738906889.m3u8?migutoken=3971ee35facaad97f711181627b3e265858dbae395af260c44cfa569e20a2b2a145999e1b704e4fe5613b585afc0d7911fe4dc3018509099c4a3c5a1f362830d57e40be8cbf0942e28978db6f6
 #EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="卫视",福建东南卫视
-http://111.8.224.6:9999/tsfile/live/1022_1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="生活时尚" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/shenghuoshishang.png" group-title="数字",上海生活时尚
-http://111.8.224.6:9999/tsfile/live/1075_1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="都市剧场" tvg-logo="" group-title="数字",上海都市剧场
-http://111.8.224.6:9999/tsfile/live/1038_1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="欢笑剧场" tvg-logo="" group-title="数字",上海欢笑剧场
-http://111.8.224.6:9999/tsfile/live/1040_1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CHC电影" tvg-logo="" group-title="数字",CHC电影
-http://111.8.224.6:9999/tsfile/live/1072_1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字",东游
-http://111.8.224.6:9999/tsfile/live/1048_1.m3u8
-#EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="" group-title="数字",北京卡酷少儿
-http://111.8.224.6:9999/tsfile/live/1033_1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字",上海动漫秀场
-http://111.8.224.6:9999/tsfile/live/1051_1.m3u8
-#EXTINF:-1 tvg-id="69" tvg-name="金鹰卡通" tvg-logo="" group-title="数字",湖南金鹰卡通
-http://111.8.224.6:9999/tsfile/live/1031_1.m3u8
+https://migu.freetv.top/migu/849116810.m3u8?migutoken=40aca892ec00f51e964cbf33fd3b51d4c832b60124e181429e5a43866e625aee6b5cfc97b8a4d7711fc07aa69f84578c4ebaf2f889ea9471c8dea87fe3a60e1fa5ebcda8b56cc6724f3c1c3400
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字",乐游
+https://migu.freetv.top/migu/796070452.m3u8?migutoken=74621aa6739aa260ad5b9e7a4d4ab092fba4d3c86bfae1b385702d8a8dcbd0041fd33e0d74b1231fc5688f7c3ff3ba613ed5c5389193c4d326dfc6cd824f5197288df3e87158b7b88a0aaf6fc7
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字",优漫卡通
+https://migu.freetv.top/migu/626064703.m3u8?migutoken=24b70dff0de1c67789e355697ac4729514d36d47688f055db9923012a3924aab982b0db106dd3451292f3ca6d65073455eca26aab1409d6f4705193a1c0ecf112d7b18134e7f1a60c4800539b2
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="数字",嘉佳卡通
+https://migu.freetv.top/migu/614952364.m3u8?migutoken=37aef60c911051bbe4367783703b30b963c37e26c4b0cab6d2360f079443df41c0a89509f3fa82e97edf18f75220ac57bf879573c4bbcd873ae8f02480a5fff6b2877fedabe11885ee889af8ad
