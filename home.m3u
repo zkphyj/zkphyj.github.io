@@ -26,19 +26,19 @@ http://192.168.0.110:35455/gaoma/cctv11.m3u8
 http://192.168.0.110:35455/gaoma/cctv12.m3u8
 #EXTINF:-1 tvg-id="14" tvg-name="CCTV13" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png" group-title="央视",CCTV-13 新闻
 http://192.168.0.110:35455/gaoma/cctv13.m3u8
-#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视,少儿",CCTV-14 少儿
+#EXTINF:-1 tvg-id="15" tvg-name="CCTV14" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png" group-title="央视;少儿",CCTV-14 少儿
 http://192.168.0.110:35455/gaoma/cctv14.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15 音乐
 http://192.168.0.110:35455/gaoma/cctv15.m3u8
-#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视,4k",CCTV-16 奥林匹克
+#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视;4k",CCTV-16 奥林匹克
 http://192.168.0.110:35455/gaoma/cctv4k16_10m.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 农村农业
 http://192.168.0.110:35455/gaoma/cctv17.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+ 体育赛事
 http://192.168.0.110:35455/gaoma/cctv5p.m3u8
-#EXTINF:-1 tvg-id="106" tvg-name="CCTV4k" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视,4k",CCTV-4K 超高清
+#EXTINF:-1 tvg-id="106" tvg-name="CCTV4k" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视;4k",CCTV-4K 超高清
 http://192.168.0.110:35455/gaoma/cctv4k_10m.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="CCTV8k" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视,4k",CCTV-8K 超高清
+#EXTINF:-1 tvg-id="" tvg-name="CCTV8k" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV4k.png" group-title="央视;4k",CCTV-8K 超高清
 http://192.168.0.110:35455/gaoma/cctv8k_36m.m3u8
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
 http://192.168.0.110:35455/itv/6000000001000014861.m3u8?cdn=wasusyt
@@ -114,7 +114,7 @@ http://192.168.0.110:35455/itv/6000000002000003382.m3u8?cdn=wasusyt
 http://192.168.0.110:35455/itv/5000000011000031112.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="少儿",上海-哈哈炫动
 http://192.168.0.110:35455/itv/5000000011000031123.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="" tvg-name="SITV动漫秀场" tvg-logo="https://epg.v1.mk/logo/SITV.png" group-title="少儿",上海-动漫秀场
+#EXTINF:-1,tvg-id="" tvg-name="SITV动漫秀场" tvg-logo="" group-title="少儿",上海-动漫秀场
 http://192.168.0.110:35455/itv/5000000011000031113.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="" tvg-name="NEWTV黑莓动画" tvg-logo="https://epg.v1.mk/logo/NEWTV黑莓动画.png" group-title="少儿",NewTV-黑莓动画
 http://192.168.0.110:35455/itv/1000000004000021734.m3u8?cdn=ystenlive
