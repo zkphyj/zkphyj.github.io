@@ -102,11 +102,9 @@ http://192.168.0.110:35455/itv/6000000002000032052.m3u8?cdn=wasusyt
 http://192.168.0.110:35455/itv/6000000002000003382.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="" tvg-name="SITV乐游" tvg-logo="https://epg.v1.mk/logo/SITV乐游.png" group-title="数字",上海-乐游
 http://192.168.0.110:35455/itv/5000000011000031112.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" 
-group-title="少儿",北京-卡酷少儿
+#EXTINF:-1,tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="少儿",北京-卡酷少儿
 http://192.168.0.110:35455/itv/5000000011000265008.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" 
-group-title="少儿",上海-哈哈炫动
+#EXTINF:-1,tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="少儿",上海-哈哈炫动
 http://192.168.0.110:35455/itv/5000000011000031123.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="" tvg-name="SITV动漫秀场" tvg-logo="" group-title="少儿",上海-动漫秀场
 http://192.168.0.110:35455/itv/5000000011000031113.m3u8?cdn=bestzb
