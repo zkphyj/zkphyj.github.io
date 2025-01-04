@@ -1,5 +1,5 @@
 #EXTM3U
-#友善的肥羊allinone直播源，最后更新：2024.12.22
+#友善的肥羊allinone直播源，最后更新：2025.01.04
 #EXTINF:-1 tvg-id="1" tvg-name="CCTV1" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" group-title="央视",CCTV-1 综合
 http://192.168.0.110:35455/gaoma/cctv1.m3u8
 #EXTINF:-1 tvg-id="2" tvg-name="CCTV2" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png" group-title="央视",CCTV-2 财经
@@ -30,8 +30,8 @@ http://192.168.0.110:35455/gaoma/cctv13.m3u8
 http://192.168.0.110:35455/gaoma/cctv14.m3u8
 #EXTINF:-1 tvg-id="16" tvg-name="CCTV15" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png" group-title="央视",CCTV-15 音乐
 http://192.168.0.110:35455/gaoma/cctv15.m3u8
-#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="4K",CCTV-16 奥林匹克
-http://192.168.0.110:35455/itv/5000000008000023254.m3u8?cdn=bestzb
+#EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV16.png" group-title="央视",CCTV-16 奥林匹克
+http://192.168.0.110:35455/gaoma/cctv16.m3u8
 #EXTINF:-1 tvg-id="17" tvg-name="CCTV17" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png" group-title="央视",CCTV-17 农村农业
 http://192.168.0.110:35455/gaoma/cctv17.m3u8
 #EXTINF:-1 tvg-id="6" tvg-name="CCTV5+" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png" group-title="央视",CCTV-5+ 体育赛事
@@ -102,7 +102,11 @@ http://192.168.0.110:35455/itv/6000000002000032052.m3u8?cdn=wasusyt
 http://192.168.0.110:35455/itv/6000000002000003382.m3u8?cdn=wasusyt
 #EXTINF:-1,tvg-id="" tvg-name="SITV乐游" tvg-logo="https://epg.v1.mk/logo/SITV乐游.png" group-title="数字",上海-乐游
 http://192.168.0.110:35455/itv/5000000011000031112.m3u8?cdn=bestzb
-#EXTINF:-1,tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" group-title="少儿",上海-哈哈炫动
+#EXTINF:-1,tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" 
+group-title="少儿",北京-卡酷少儿
+http://192.168.0.110:35455/itv/5000000011000265008.m3u8?cdn=bestzb
+#EXTINF:-1,tvg-id="62" tvg-name="哈哈炫动" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/xuandong.png" 
+group-title="少儿",上海-哈哈炫动
 http://192.168.0.110:35455/itv/5000000011000031123.m3u8?cdn=bestzb
 #EXTINF:-1,tvg-id="" tvg-name="SITV动漫秀场" tvg-logo="" group-title="少儿",上海-动漫秀场
 http://192.168.0.110:35455/itv/5000000011000031113.m3u8?cdn=bestzb
