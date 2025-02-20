@@ -42,3 +42,7 @@ http://192.168.0.110:35455/gaoma/cctv8k_36m.m3u8
 http://192.168.0.110:35455/bptv/10000100000000050000000003887500.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://epg.v1.mk/logo/淘BABY.png" group-title="少儿",北京IPTV-淘BABY
 http://192.168.0.110:35455/bptv/10000100000000050000000003887496.m3u8
+#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.v1.mk/logo/北京新闻.png" group-title="北京",北京-新闻
+http://192.168.0.110:35455/bptv/10000100000000050000000003870780.m3u8
+#EXTINF:-1,tvg-id="" tvg-name="" tvg-logo="https://epg.v1.mk/logo/北京体育休闲.png" group-title="北京",北京-体育休闲
+http://192.168.0.110:35455/bptv/10000100000000050000000003870779.m3u8
