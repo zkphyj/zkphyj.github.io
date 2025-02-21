@@ -26,25 +26,23 @@ http://192.168.0.110:35455/gaoma/cctv11.m3u8
 http://192.168.0.110:35455/gaoma/cctv12.m3u8
 #EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="央视",CCTV-13 新闻
 http://192.168.0.110:35455/gaoma/cctv13.m3u8
-#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="少儿",CCTV-14 少儿
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="央视",CCTV-14 少儿
 http://192.168.0.110:35455/gaoma/cctv14.m3u8
 #EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV-15 音乐
 http://192.168.0.110:35455/gaoma/cctv15.m3u8
-#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视,4K",CCTV-16 奥林匹克
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视",CCTV-16 奥林匹克
 http://192.168.0.110:35455/gaoma/cctv4k16_10m.m3u8
 #EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="央视",CCTV-17 农村农业
 http://192.168.0.110:35455/gaoma/cctv17.m3u8
-#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="4K",CCTV-4K 超高清
+#EXTINF:-1,tvg-id="cctv4k" tvg-name="cctv4k" tvg-logo="https://epg.v1.mk/logo/cctv4k.png" group-title="央视",CCTV-4K 超高清
 http://192.168.0.110:35455/gaoma/cctv4k_10m.m3u8
-#EXTINF:-1,tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="4K",CCTV-8K 超高清
+#EXTINF:-1,tvg-id="cctv8k" tvg-name="cctv8k" tvg-logo="https://epg.v1.mk/logo/cctv8k.png" group-title="央视",CCTV-8K 超高清
 http://192.168.0.110:35455/gaoma/cctv8k_36m.m3u8
 #EXTINF:-1,tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://epg.v1.mk/logo/北京新闻.png" group-title="北京",北京-新闻
 http://192.168.0.110:35455/bptv/10000100000000050000000003870780.m3u8
-#EXTINF:-1,tvg-id="北京纪实科教8K" tvg-name="北京纪实科教8K" tvg-logo="https://epg.v1.mk/logo/北京纪实科教8K.png" group-title="4K",北京-纪实科教
-https://gdcucc.v1.mk/gdcucc/brtv8k.m3u8
-#EXTINF:-1,tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://epg.v1.mk/logo/北京体育休闲.png" group-title="4K",北京-体育休闲
+#EXTINF:-1,tvg-id="北京体育休闲" tvg-name="北京体育休闲" tvg-logo="https://epg.v1.mk/logo/北京体育休闲.png" group-title="北京",北京-体育休闲
 http://192.168.0.110:35455/bptv/10000100000000050000000004270525.m3u8
-#EXTINF:-1,tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://epg.v1.mk/logo/北京IPTV4K.png" group-title="4K",北京IPTV-4K超清
+#EXTINF:-1,tvg-id="北京IPTV4K" tvg-name="北京IPTV4K" tvg-logo="https://epg.v1.mk/logo/北京IPTV4K.png" group-title="北京",北京IPTV-4K超清
 http://192.168.0.110:35455/bptv/10000100000000050000000003887500.m3u8
-#EXTINF:-1,tvg-id="淘BABY" tvg-name="淘BABY" tvg-logo="https://epg.v1.mk/logo/淘BABY.png"  group-title="少儿",北京IPTV-淘BABY
+#EXTINF:-1,tvg-id="淘BABY" tvg-name="淘BABY" tvg-logo="https://epg.v1.mk/logo/淘BABY.png"  group-title="北京",北京IPTV-淘BABY
 http://192.168.0.110:35455/bptv/10000100000000050000000003887496.m3u8
