@@ -6,8 +6,6 @@ http://192.168.0.110:35455/gaoma/cctv1.m3u8
 http://192.168.0.110:35455/gaoma/cctv2.m3u8
 #EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",CCTV-3 综艺
 http://192.168.0.110:35455/gaoma/cctv3.m3u8
-#EXTINF:-1 tvg-id="3" tvg-name="CCTV3" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png" group-title="央视",CCTV-3 综艺
-http://192.168.0.110:35455/gaoma/cctv3.m3u8
 #EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",CCTV-4 中文国际
 http://192.168.0.110:35455/gaoma/cctv4.m3u8
 #EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",CCTV-5 体育
@@ -32,7 +30,7 @@ http://192.168.0.110:35455/gaoma/cctv13.m3u8
 http://192.168.0.110:35455/gaoma/cctv14.m3u8
 #EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",CCTV-15 音乐
 http://192.168.0.110:35455/gaoma/cctv15.m3u8
-#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="4K",CCTV-16 奥林匹克
+#EXTINF:-1,tvg-id="cctv16" tvg-name="cctv16" tvg-logo="https://epg.v1.mk/logo/cctv16.png" group-title="央视,4K",CCTV-16 奥林匹克
 http://192.168.0.110:35455/gaoma/cctv4k16_10m.m3u8
 #EXTINF:-1,tvg-id="cctv17" tvg-name="cctv17" tvg-logo="https://epg.v1.mk/logo/cctv17.png" group-title="央视",CCTV-17 农村农业
 http://192.168.0.110:35455/gaoma/cctv17.m3u8
